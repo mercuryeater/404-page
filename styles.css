@@ -1,6 +1,57 @@
 body {
+    padding: 20px;
     font-family: Space Mono;
+    font-weight: 500;
+    font-size: 18px;
 }
+
 img {
-    max-width: 100%;
+    max-width: 400px;
+    min-width: 300px;
+    margin: 30px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.attribution {
+    color: #7b7b7b;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 10px;
+}
+
+a {
+    color: #7b7b7b;
+}
+
+#msg {
+    color: #4F4F4F;
+}
+
+#homepage {
+    padding: 25px 40px;
+    border-radius: 2px;
+    border: none;
+    background-color: #333333;
+    color: white;
+}
+
+#not-found {
+    display: block;
+    font-size: 18px;
+}
+
+#bad-news {
+    font-size: 43px;
 }
