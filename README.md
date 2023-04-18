@@ -16,7 +16,7 @@ Screen of 1440px by 800px:
 - CSS
 - Flexbox 
 ### What I learned
-It was my first time using flexbox and I think it went pretty good. Actually at first I thought it was completely mandatory to use a media querie to make a responsive design, however as I was working with the flexbox the design become responsive by itself.
+It was my first time using flexbox and I think it went pretty good. ~~Actually at first I thought it was completely mandatory to use a media querie to make a responsive design, however as I was working with the flexbox the design become responsive by itself.~~ **EDIT** I did use the `@media` to change the `flex-wrap` from `nowrap` to `wrap` depending on the `max-width` of the screen.
 
 I joined the scarecrow and the main texts on a .container, and then used the `flex-wrap: wrap;` so when the screen width was reduced the items could reorganize one below the other.
 Next, I used `justify-content: center;` and `align-items: center;` so the items inside .container where centered in the page.
