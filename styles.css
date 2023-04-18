@@ -13,7 +13,7 @@ img {
 
 .container {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
 }
@@ -36,7 +36,7 @@ a {
 }
 
 #msg {
-    color: #4F4F4F;
+    color: #4F4F4F;    
 }
 
 #homepage {
@@ -54,4 +54,10 @@ a {
 
 #bad-news {
     font-size: 43px;
+}
+
+@media (max-width: 700px) {
+    .container {
+        flex-wrap: wrap;
+    }        
 }
