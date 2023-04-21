@@ -5,10 +5,10 @@ This is a solution to the '404 NOT FOUND' project of the Make It Real course.
 The user will see a 404 page with a scarecrow that will have a responsive design. Making the page both for mobile and desktop.
 ### Screenshots
 Screen of 375px by 800px:
-![SS of the challenge in a screen of 375px by 800px.](ss\ss-375.png)
+![SS of the challenge in a screen of 375px by 800px](https://raw.githubusercontent.com/mercuryeater/404-page/main/ss/ss-375.png)
 
 Screen of 1440px by 800px:
-![SS of the challenge in a screen of 1440px by 800px](ss\ss-1440.png)
+![SS of the challenge in a screen of 1440px by 800px](https://raw.githubusercontent.com/mercuryeater/404-page/main/ss/ss-1440.png)
  
 ## My process
 ### Built with
